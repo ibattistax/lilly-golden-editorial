@@ -1,0 +1,68 @@
+:root {
+  --heading-font: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+    sans-serif;
+  --body-font: Georgia, "Times New Roman", Times, serif;
+  --dark-1: #1a2332;
+  --light-1: #e4e8f4;
+  --light-2: rgba(124, 172, 208, 0.3);
+  --img-colour-offset: 20px 20px #1a2332;
+}
+.hero {
+  background-color: var(--light-2);
+}
+.level-1-section {
+  padding-top: 60px;
+}
+.heading1 {
+  padding-top: 100px;
+  margin: 0 10px;
+  font-size: 70px;
+}
+.heading2 {
+  margin: 40px 10px;
+}
+h1,
+h2,
+h3 {
+  font-family: var(--heading-font);
+  font-weight: bold;
+  color: var(--dark-1);
+}
+body {
+  font-family: var(--body-font);
+  color: var(--dark-1);
+}
+.branding-button {
+  text-decoration: none;
+  color: black;
+  background-color: none;
+  border: solid 2px black;
+  padding: 7px;
+  border-radius: 4px;
+}
+
+.bio-book-title {
+  font-weight: bold;
+  font-style: italic;
+}
+.features .book-odd {
+  display: flex;
+  justify-content: space-evenly;
+  background: var(--dark-1);
+  color: var(--light-1);
+}
+.features .book-even {
+  display: flex;
+  justify-content: space-evenly;
+}
+.feature-book-jacket {
+  padding: 20px;
+}
+.highlight-photo {
+  box-shadow: var(--img-colour-offset);
+}
+.branding-button:hover {
+  color: var(--light-1);
+  background-color: var(--dark-1);
+  transition: 400ms;
+}
