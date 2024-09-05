@@ -134,12 +134,12 @@ p {
 }
 footer {
   font-family: var(--body-font);
-  background-color: #1a2332;
-  color: white;
+  background-color: var(--dark-1-opaque);
+  color: rgb(255, 255, 255, 0.7);
   padding: 10px;
 }
 footer a {
-  color: white;
+  color: rgb(255, 255, 255, 0.7);
 }
 
 /* custom bootstrap element css */
