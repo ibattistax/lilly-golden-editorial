@@ -130,14 +130,14 @@ div {
 }
 .carousel-control-prev,
 .carousel-control-next {
-  width: 5%;
+  width: 2%;
 }
 
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
   background-color: rgba(0, 0, 0, 0.2);
   padding: 30px 20px;
-  border-radius: 4px;
+  border-radius: 25px;
 }
 
 .carousel-inner {
