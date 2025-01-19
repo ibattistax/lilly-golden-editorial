@@ -4,8 +4,13 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Lilly Golden - Testimonials</title>
-    <link rel="stylesheet" href="src/style.css" />
     <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Prata&display=swap"
+      rel="stylesheet"
+    />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -24,8 +29,11 @@
       integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="src/style.css" />
+
     <script
-      src="https://kit.fontawesome.com/35c5bd0d0b.js"
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
       crossorigin="anonymous"
     ></script>
   </head>
@@ -33,8 +41,13 @@
     <nav class="navbar sticky-top navbar-expand-md navbar-custom">
       <div class="container-fluid">
         <a class="navbar-brand navbar-brand-custom" href="/index.html"
-          >Lilly Golden <strong>Editorial</strong></a
-        >
+          ><div>
+            <img
+              src="images/logo.png"
+              class="logo-img"
+              alt="Lilly Golden Editorial"
+            /></div
+        ></a>
         <button
           class="navbar-toggler"
           type="button"
@@ -75,66 +88,111 @@
         </div>
       </div>
     </nav>
-    <h1 class="page-title ms-2 mb-5">Lilly Golden</h1>
+    <h4 class="page-title mb-4 text-center">Testimonials</h4>
     <div class="container">
-      <div class="row testimonial-container m-4">
-        <div class="col-3">
-          <i class="fa-solid fa-quote-left"></i>
+      <div class="grid-2-columns-left-short testimonial-container">
+        <div class="testimonial-book-cover-img">
+          <img
+            src="images/non-fiction-books/raised-by-a-serial-killer.jpg"
+            alt=""
+          />
         </div>
-        <div class="col-9 testimonial">
-          “I was referred to Lilly after a succession of other collaborators not
-          working out for one reason or another. Lilly was a breath of fresh
-          air. I can honestly say that if it wasn’t for Lilly, I would have
-          never finished writing my book. She was extremely patient with me. She
-          took the time to listen to me. Which helped her understand where I was
-          coming from. She cried with me. Laughed with me. She kept reassuring
-          me that my ideas mattered and that my voice needed to be heard.”
-          <div class="testimonial-byline">
-            April Balascio
-            <span class="book-title">(Raised by a Serial Killer)</span>
+        <div class="testimonial">
+          <div>
+            “I was referred to Lilly after a succession of other collaborators
+            not working out for one reason or another. Lilly was a breath of
+            fresh air. I can honestly say that if it wasn’t for Lilly, I would
+            have never finished writing my book. She was extremely patient with
+            me. She took the time to listen to me. Which helped her understand
+            where I was coming from. She cried with me. Laughed with me. She
+            kept reassuring me that my ideas mattered and that my voice needed
+            to be heard.”
           </div>
-        </div>
-      </div>
-      <div class="row testimonial-container m-4">
-        <div class="col-9 testimonial">
-          “I am most grateful to Lilly Golden, who offered sound editorial
-          advice and wise professional counsel ... for respectfully directing me
-          to the places where I needed to wield the scalpel with a steady hand
-          or add more clay with care.” (In reference to
-          <span class="book-title">The White Lady</span>)
           <br />
-          <br />
-          “Lilly was
-          <span class="book-title">The Comfort of Ghosts</span> first reader,
-          offering sound editorial advice and demonstrating an ability to
-          identify elements of the story that remained clear in my mind’s eye
-          but not in the novel. Thank you, Lilly for your sensitive commentary
-          and wise counsel.”
-
-          <div class="testimonial-byline">
-            Jacqueline Winspear, internationally bestselling author of the
-            Maisie Dobbs series
-          </div>
-        </div>
-        <div class="col-3">
-          <i class="fa-solid fa-quote-right ms-3"></i>
-        </div>
-      </div>
-      <div class="row testimonial-container m-4">
-        <div class="col-3">
-          <i class="fa-solid fa-quote-left"></i>
-        </div>
-        <div class="col-9 testimonial">
-          “Working with Lilly on my first book was like being sent an angel who
-          literally chased all the demons of self-doubt away and instilled an
-          atmosphere of relaxation in which I was able to write and perceive my
-          work with greater clarity. It was always a pleasure to meet her online
-          and I would recommend her to anyone.”
-          <div class="testimonial-byline">
-            Lynx Vilden, author of
-            <span class="book-title"
-              >Return: A Journey Back to Living Wild</span
+          <div class="grid-2-columns-right-short-start-align">
+            <div class="testimonial-byline">
+              -April Balascio
+              <span class="book-title">(Raised by a Serial Killer)</span>
+            </div>
+            <a href="amazon.com" target="_blank" class="button-branding-1"
+              >Learn More</a
             >
+          </div>
+        </div>
+      </div>
+      <div class="grid-2-columns-right-short testimonial-container">
+        <div class="testimonial">
+          <div>
+            “I am most grateful to Lilly Golden, who offered sound editorial
+            advice and wise professional counsel ... for respectfully directing
+            me to the places where I needed to wield the scalpel with a steady
+            hand or add more clay with care.”
+          </div>
+          <br />
+          <div class="testimonial-byline">
+            -Jacqueline Winspear
+            <span class="book-title">(The White Lady)</span>
+          </div>
+        </div>
+        <div class="testimonial-book-cover-img">
+          <img src="images/fiction-books/white-lady.jpg" alt="" />
+        </div>
+      </div>
+      <div class="grid-2-columns-left-short testimonial-container">
+        <div class="testimonial-book-cover-img">
+          <img src="images/fiction-books/comfort-of-ghosts.jpg" alt="" />
+        </div>
+        <div class="testimonial">
+          <div>
+            “Lilly was
+            <span class="book-title">The Comfort of Ghosts</span> first reader,
+            offering sound editorial advice and demonstrating an ability to
+            identify elements of the story that remained clear in my mind’s eye
+            but not in the novel. Thank you, Lilly for your sensitive commentary
+            and wise counsel.”
+          </div>
+          <br />
+          <div class="testimonial-byline">
+            -Jacqueline Winspear
+            <span class="book-title">(The Comfort of Ghosts)</span>
+          </div>
+        </div>
+      </div>
+      <div class="grid-2-columns-right-short testimonial-container">
+        <div class="testimonial">
+          <div>
+            “Working with Lilly on my first book was like being sent an angel
+            who literally chased all the demons of self-doubt away and instilled
+            an atmosphere of relaxation in which I was able to write and
+            perceive my work with greater clarity. It was always a pleasure to
+            meet her online and I would recommend her to anyone.”
+          </div>
+          <br />
+          <div class="testimonial-byline">
+            Lynx Vilden
+            <span class="book-title"
+              >(Return: A Journey Back to Living Wild)</span
+            >
+          </div>
+        </div>
+        <div class="testimonial-book-cover-img">
+          <img src="images/non-fiction-books/return.png" alt="" />
+        </div>
+      </div>
+      <div class="grid-2-columns-left-short testimonial-container">
+        <div class="testimonial-book-cover-img">
+          <img src="images/fiction-books/comfort-of-ghosts.jpg" alt="" />
+        </div>
+        <div class="testimonial">
+          <div>
+            “I could not have asked for a more sincere and enthusiastic champion
+            for my debut novel than Lilly. I felt supported, guided, and in
+            extremely competent hands throughout the process.”
+          </div>
+          <br />
+          <div class="testimonial-byline">
+            -Dur e Aziz Amna
+            <span class="book-title">(American Fever)</span>
           </div>
         </div>
       </div>

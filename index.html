@@ -4,8 +4,14 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Lilly Golden Editorial</title>
-    <link rel="stylesheet" href="src/style.css" />
+
     <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Prata&display=swap"
+      rel="stylesheet"
+    />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -24,6 +30,8 @@
       integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="src/style.css" />
+
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
@@ -31,12 +39,10 @@
     ></script>
   </head>
 
-  <body>
+  <body class="body">
     <nav class="navbar sticky-top navbar-expand-md navbar-custom">
       <div class="container-fluid">
-        <a class="navbar-brand navbar-brand-custom" href="/index.html"
-          >Lilly Golden <strong>Editorial</strong></a
-        >
+        <a class="navbar-brand navbar-brand-custom" href="/index.html"></a>
         <button
           class="navbar-toggler"
           type="button"
@@ -67,225 +73,97 @@
               >
             </li>
           </ul>
-          <a href="/about.html#contact" class="btn btn-outline-dark">
+          <a href="/index.html#footer" class="btn btn-outline-dark">
             Contact me
           </a>
         </div>
       </div>
     </nav>
-    <div class="hero pb-4">
-      <!-- <img src="images/hero-banner.jpeg" alt="" /> -->
-      <h1 class="title">Lilly Golden <br />Editorial</h1>
-      <h2 class="subtitle">EDITOR │ WRITER │ COLLABORATOR</h2>
 
-      <!-- <a
+    <header>
+      <div class="hero pb-4">
+        <div class="title-container">
+          <h1 class="title">Lilly Golden Editorial</h1>
+          <h2 class="subtitle">editor │ writer │ collaborator</h2>
+        </div>
+      </div>
+    </header>
+    <!-- <a
         href="contact"
         class="btn btn-outline-dark btn-outline-dark-custom ms-2"
         >Let's Work Together</a
       > -->
-    </div>
-    <div class="level-1-section">
-      <div
-        id="carouselExampleIndicators"
-        class="carousel slide carousel-container"
-      >
-        <div class="carousel-indicators">
-          <button
-            type="button"
-            data-bs-target="#carouselExampleIndicators"
-            data-bs-slide-to="0"
-            class="active"
-            aria-current="true"
-            aria-label="Slide 1"
-          ></button>
-          <button
-            type="button"
-            data-bs-target="#carouselExampleIndicators"
-            data-bs-slide-to="1"
-            aria-label="Slide 2"
-          ></button>
-          <button
-            type="button"
-            data-bs-target="#carouselExampleIndicators"
-            data-bs-slide-to="2"
-            aria-label="Slide 3"
-          ></button>
-        </div>
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <div class="row">
-              <div class="col-4">
-                <img
-                  src="images/fiction-books/american-fever.jpg"
-                  class="img-fluid d-flex w-75"
-                  alt="..."
-                />
-              </div>
-              <div class="col-8">
-                <div class="d-flex">
-                  “Winspear is an absolute master of the character-driven
-                  thriller . . . [and] the real strength of the novel lies in
-                  the poignant and beautifully written backstory of Elinor’s
-                  childhood in war-torn Belgium and her personal losses in a
-                  devastated London.” —Booklist, Starred Review
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <div class="row">
-              <div class="col-4">
-                <img
-                  src="images/fiction-books/white-lady.jpg"
-                  class="img-fluid d-flex w-75"
-                  alt="..."
-                />
-              </div>
-              <div class="col-8">
-                <div class="d-flex">
-                  “Winspear is an absolute master of the character-driven
-                  thriller . . . [and] the real strength of the novel lies in
-                  the poignant and beautifully written backstory of Elinor’s
-                  childhood in war-torn Belgium and her personal losses in a
-                  devastated London.” —Booklist, Starred Review
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <div class="row">
-              <div class="col-4">
-                <img
-                  src="images/non-fiction-books/raised-by-a-serial-killer.jpg"
-                  class="img-fluid d-flex w-75"
-                  alt="..."
-                />
-              </div>
-              <div class="col-8">
-                <div class="d-flex">
-                  “Winspear is an absolute master of the character-driven
-                  thriller . . . [and] the real strength of the novel lies in
-                  the poignant and beautifully written backstory of Elinor’s
-                  childhood in war-torn Belgium and her personal losses in a
-                  devastated London.” —Booklist, Starred Review
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <button
-          class="carousel-control-prev"
-          type="button"
-          data-bs-target="#carouselExampleIndicators"
-          data-bs-slide="prev"
-        >
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button
-          class="carousel-control-next"
-          type="button"
-          data-bs-target="#carouselExampleIndicators"
-          data-bs-slide="next"
-        >
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
-      </div>
-
-      <h3>Recent Fiction</h3>
-
-      <div class="container">
-        <div class="row">
-          <div class="col"></div>
-          <div class="col"></div>
-        </div>
-      </div>
-
-      <div class="container">
-        <div class="features">
-          <div class="mb-3 book-odd book-1 row">
-            <div class="col-md-4">
+    <main>
+      <section class="nonfiction-features">
+        <h3>Featured Nonfiction</h3>
+        <div class="grid-2-columns outer-grid">
+          <div class="featured-book-1 inner-grid grid-2-columns">
+            <div class="img-container">
               <img
-                src="images/fiction-books/white-lady.jpg"
-                class="feature-img img-fluid"
+                src="images/non-fiction-books/raised-by-a-serial-killer.jpg"
+                class="featured-book-cover-img"
                 alt=""
               />
             </div>
-            <div class="col-md-8">
-              <div class="blurb">
-                <br />
-                “Winspear is an absolute master of the character-driven thriller
-                . . . [and] the real strength of the novel lies in the poignant
-                and beautifully written backstory of Elinor’s childhood in
-                war-torn Belgium and her personal losses in a devastated
-                London.” —Booklist, Starred Review
-                <br />
+            <div class="featured-book-reviews">
+              <div>
+                "A courageously skilled narrator... unputdownable... readers
+                will find themselves utterly immersed."
               </div>
-              <div class="blurb">
-                <br />
-                “Winspear is an absolute master of the character-driven thriller
-                . . . [and] the real strength of the novel lies in the poignant
-                and beautifully written backstory of Elinor’s childhood in
-                war-torn Belgium and her personal losses in a devastated
-                London.” —Booklist, Starred Review
-                <br />
+              <div>-BookPage (starred review)</div>
+              <br />
+              <div>
+                "Mesmerizing... the details, research, and candor will captivate
+                readers, who won't be able to put it down."
               </div>
-              <div class="blurb">
-                <br />
-                “Winspear is an absolute master of the character-driven thriller
-                . . . [and] the real strength of the novel lies in the poignant
-                and beautifully written backstory of Elinor’s childhood in
-                war-torn Belgium and her personal losses in a devastated
-                London.” —Booklist, Starred Review
-                <br />
-              </div>
+              <div>-Library Journal (starred review)</div>
+              <br />
+              <a
+                href="https://www.amazon.com/Raised-Serial-Killer-Discovering-Father-ebook/dp/B0CV1WCRDV#:~:text=Some%20part%20of%20her%20had,courageous%20memoir%20unlike%20any%20other."
+                class="button-branding-1"
+                target="_blank"
+                >Learn More</a
+              >
             </div>
           </div>
-          <div class="mb-3 book-odd book-1 row">
-            <div class="col-md-8">
-              <div class="blurb">
-                <br />
-                “Winspear is an absolute master of the character-driven thriller
-                . . . [and] the real strength of the novel lies in the poignant
-                and beautifully written backstory of Elinor’s childhood in
-                war-torn Belgium and her personal losses in a devastated
-                London.” —Booklist, Starred Review
-                <br />
-              </div>
-              <div class="blurb">
-                <br />
-                “Winspear is an absolute master of the character-driven thriller
-                . . . [and] the real strength of the novel lies in the poignant
-                and beautifully written backstory of Elinor’s childhood in
-                war-torn Belgium and her personal losses in a devastated
-                London.” —Booklist, Starred Review
-                <br />
-              </div>
-              <div class="blurb">
-                <br />
-                “Winspear is an absolute master of the character-driven thriller
-                . . . [and] the real strength of the novel lies in the poignant
-                and beautifully written backstory of Elinor’s childhood in
-                war-torn Belgium and her personal losses in a devastated
-                London.” —Booklist, Starred Review
-                <br />
-              </div>
-            </div>
-            <div class="col-md-4">
+          <div class="featured-book-2 inner-grid grid-2-columns">
+            <div class="img-container">
               <img
-                src="images/fiction-books/white-lady.jpg"
-                class="feature-img img-fluid"
+                src="images/non-fiction-books/manhattan-cult-story.jpg"
+                class="featured-book-cover-img"
                 alt=""
               />
             </div>
+            <div class="featured-book-reviews">
+              <div>
+                "Manhattan Cult Story pulled me in and threw away the key."
+              </div>
+              <div>-Mike DeCapite, author of Jacket Weather</div>
+              <br />
+              <div>
+                "Manhattan Cult Story is one of those gripping tales of personal
+                struggle and perseverance you simply cannot put down."
+              </div>
+              <div>-Andy Ostroy, director of HBO's Adreinne</div>
+              <br />
+              <a href="#" class="button-branding-1" target="_blank"
+                >Learn More</a
+              >
+            </div>
           </div>
         </div>
-      </div>
-    </div>
-
-    <footer id="contact">
-      <div>Lilly Golden <strong>Editorial</strong></div>
+      </section>
+      <section class="fiction-features">
+        <div class="grid-2-columns">
+          <div class="featured-book-1">
+            <div></div>
+            <div></div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer id="footer">
+      <div>Lilly Golden Editorial</div>
       <div>
         <br />
         Contact Lilly at
@@ -293,6 +171,14 @@
       </div>
       Represented by Laura Nolan, Aevitas Creative Management /
       <a href="mailto:lnolan@aevitascreative.com">lnolan@aevitascreative.com</a>
+      <div class="creator-credits">
+        <em>
+          This website was designed and coded by
+          <a href="#">Isabel Battista</a> and is open sourced on
+          <a href="#">GitHub</a></em
+        >
+      </div>
     </footer>
+    <script src="src/app.js"></script>
   </body>
 </html>
