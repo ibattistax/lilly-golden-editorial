@@ -12,3 +12,16 @@ document.addEventListener("DOMContentLoaded", function () {
     }
   });
 });
+
+document.addEventListener("scroll", () => {
+  const headers = document.querySelectorAll("h3.sticky-top-custom");
+  headers.forEach((header) => {
+    const rect = header.getBoundingClientRect();
+    if (rect.top <= 75) {
+      // When the header reaches the hero offset
+      header.classList.add("is-sticky");
+    } else {
+      header.classList.remove("is-sticky");
+    }
+  });
+});
