@@ -339,6 +339,21 @@ i:hover {
   .featured-book-cover-img {
     height: 100vw;
   }
+  .wrap {
+    float: none;
+    max-width: 200px;
+    margin: 5px 25px 20px 20px auto;
+  }
+  .about-paragraphs {
+    text-align: center;
+  }
+  .footer {
+    text-align: center;
+  }
+  .grid-img img:hover {
+    transform: scale(3);
+    transition: 200ms;
+  }
 }
 @media (max-width: 768px) {
   .feature-img {
