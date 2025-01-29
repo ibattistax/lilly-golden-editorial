@@ -160,9 +160,19 @@ hr {
 .featured-book-3 {
   border-left: 3px solid #2c426c15;
 } */
+.featured-book-reviews {
+  max-width: 350px;
+}
+.featured-book-reviews h5 {
+  font-size: 17px;
+}
+.featured-book-reviews .feature-byline {
+  font-size: 14px;
+  opacity: 0.8;
+}
 .featured-book-cover-img {
-  height: 25vw;
-  margin: 15px auto;
+  height: 30vw;
+  margin: 25px 25px 50px 25px;
 }
 .featured-book-cover-container {
   justify-content: center;
@@ -336,6 +346,12 @@ i:hover {
 /*media queries here*/
 
 @media (max-width: 567px) {
+  .hero h1 {
+    font-size: 35px;
+  }
+  .hero h2 {
+    font-size: 15px;
+  }
   .featured-book-cover-img {
     height: 100vw;
   }
@@ -364,7 +380,6 @@ i:hover {
   }
   .hero {
     justify-content: center;
-
     padding: 100px 0 80px 0;
   }
   .title-container {
