@@ -3,8 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Lilly Golden Editorial</title>
-
+    <title>Lilly Golden - Testimonials</title>
     <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -41,8 +40,15 @@
 
   <body class="body">
     <nav class="navbar sticky-top navbar-expand-md navbar-custom">
-      <div class="container-fluid nav-container-custom">
-        <a class="navbar-brand navbar-brand-custom" href="/index.html"></a>
+      <div class="container-fluid">
+        <a class="navbar-brand navbar-brand-custom" href="/index.html"
+          ><div>
+            <img
+              src="images/logo.png"
+              class="logo-img"
+              alt="Lilly Golden Editorial"
+            /></div
+        ></a>
         <button
           class="navbar-toggler"
           type="button"
@@ -57,7 +63,9 @@
         <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
           <ul class="navbar-nav mx-auto mb-2 mb-md-0 nav-underline">
             <li class="nav-item nav-item-custom">
-              <a class="nav-link" aria-current="page" href="#">Home</a>
+              <a class="nav-link" aria-current="page" href="/index.html"
+                >Home</a
+              >
             </li>
             <li class="nav-item nav-item-custom">
               <a class="nav-link" aria-current="page" href="/about.html"
@@ -68,68 +76,36 @@
               <a class="nav-link" aria-current="page" href="/work.html">Work</a>
             </li>
             <li class="nav-item nav-item-custom">
-              <a class="nav-link" aria-current="page" href="/testimonials.html"
-                >Testimonals</a
-              >
-            </li>
-            <li class="nav-item nav-item-custom">
-              <a
-                class="nav-link active"
-                aria-current="page"
-                href="/contact.html"
-                >Contact</a
-              >
+              <a class="nav-link" aria-current="page" href="#">Testimonals</a>
             </li>
           </ul>
-          <a href="/index.html#footer" class="btn btn-outline-dark">
-            Contact me
+          <a href="/contact.html">
+            <button class="btn btn-outline-dark" type="button">
+              Contact me
+            </button>
           </a>
         </div>
       </div>
     </nav>
-    <div class="content">
-      <div class="content-box row mt-5 d-lg-flex d-none">
-        <div class="col-lg">
-          <h2>Work Enquiry</h2>
-          <p>Let's work together</p>
-        </div>
-        <div class="col-lg mt-3 text-end">
-          <a
-            href="mailto:lilly.golden@gmail.com"
-            class="btn btn-branding"
-            title="lilly.golden@gmail.com"
-            >Get in touch</a
-          >
-        </div>
-      </div>
-      <div class="text-center mt-5">
-        <a
-          href="mailto:lilly.golden@gmail.com"
-          class="link email-link"
-          target="_blank"
-          >lilly.golden@gmail.com</a
-        >
-      </div>
-
-      <div class="text-center">
-        <div class="mt-3 d-flex justify-content-center">
-          <a
-            href="mailto:isabel.battista@gmail.com"
-            title="Email: isabel.battista@gmail.com"
-            class="social-links"
-            target="_blank"
-            ><i class="fa-regular fa-envelope"></i
-          ></a>
-          <a
-            href="https://www.linkedin.com/in/isabel-battista/"
-            class="social-links"
-            title="Linkedin: isabel-battista"
-            target="_blank"
-          >
-            <i class="fa-brands fa-linkedin-in"></i
-          ></a>
-        </div>
-      </div>
+    <h1 class="page-subtitle text-center">Contact Me</h1>
+    <div id="contact-form" class="form">
+      <form method="post">
+        <input type="text" placeholder="Name" id="name" autocomplete="off" />
+        <input type="email" placeholder="Email" id="email" autocomplete="off" />
+        <input
+          type="text"
+          placeholder="Subject"
+          id="subject"
+          autocomplete="off"
+        />
+        <textarea
+          id="message"
+          placeholder="Message"
+          cols="30"
+          rows="10"
+        ></textarea>
+        <button id="btn">Send</button>
+      </form>
     </div>
     <footer id="footer">
       <div>Lilly Golden Editorial</div>
