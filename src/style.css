@@ -242,7 +242,15 @@ footer ul {
 .book-title {
   font-style: italic;
 }
-
+.coming-soon {
+  background-color: #ffbd5a;
+  font-family: var(--secondary-font);
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 13px;
+  margin-bottom: 5px;
+  text-align: center;
+}
 .wrap {
   float: right;
   max-width: 200px;
@@ -391,7 +399,7 @@ i:hover {
     font-size: 35px;
   }
   .hero h2 {
-    font-size: 15px;
+    font-size: 1 5px;
   }
   .featured-book-cover-img {
     height: 100vw;
@@ -399,8 +407,10 @@ i:hover {
   .wrap {
     float: none;
     max-width: 200px;
-    margin: 5px 25px 20px 20px auto;
+    margin: 0 auto;
+    margin-bottom: 30px;
   }
+
   .about-paragraphs {
     text-align: center;
   }
