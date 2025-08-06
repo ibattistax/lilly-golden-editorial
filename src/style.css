@@ -219,7 +219,7 @@ hr {
 }
 
 .bio-book-title {
-  font-weight: bold;
+  font-weight: 900;
   font-style: italic;
 }
 .features-header {
@@ -231,9 +231,6 @@ hr {
   align-items: center;
   justify-content: center;
 }
-/* .fiction-features {
-  border-left: 1px solid rgba(0, 0, 0, 0.239);
-} */
 
 .highlight-photo {
   border-radius: 4px;
@@ -243,7 +240,7 @@ hr {
   box-shadow: var(--shadow);
   border-radius: 4px;
 }
-/* need a max width media thingy for md breakpoint for images in grid */
+
 .grid-img img:hover {
   transform: scale(1.3);
   transition: 200ms;
@@ -355,16 +352,22 @@ footer {
 footer a {
   color: rgb(255, 255, 255);
 }
+footer .footer-grid {
+  grid-template-columns: 1fr;
+  text-align: center;
+  gap: 0;
+}
+footer .column-1,
+.column-2 {
+  border-right: none;
+}
 .footer-grid {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 30px;
   margin-bottom: 20px;
 }
-footer .column-1,
-.column-2 {
-  border-right: 1px rgb(255, 255, 255, 0.1) solid;
-}
+
 .footer-column ul {
   list-style: none;
 
@@ -460,9 +463,7 @@ i:hover {
   .about-paragraphs {
     text-align: center;
   }
-  .footer {
-    text-align: center;
-  }
+
   .grid-img img:hover {
     transform: scale(2);
     transition: 200ms;
@@ -516,7 +517,7 @@ i:hover {
     width: auto;
   }
   .featured-book-cover-img {
-    height: 80vw;
+    height: 60vw;
     width: auto;
     margin-top: 20px;
     margin-bottom: 20px;
@@ -541,18 +542,6 @@ i:hover {
   #contact-form input,
   textarea {
     width: 90%;
-  }
-  footer .footer-grid {
-    grid-template-columns: 1fr;
-    text-align: center;
-    gap: 0;
-  }
-  footer .column-2 {
-    display: none;
-  }
-  footer .column-1,
-  .column-2 {
-    border-right: none;
   }
 }
 @media (768px <= width <= 992px) {
