@@ -332,12 +332,11 @@ footer .column-1,
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 30px;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 
 .footer-column ul {
   list-style: none;
-
   padding: 0;
 }
 .footer-column ul li {
@@ -354,7 +353,6 @@ footer .column-1,
 }
 
 .social-links a {
-  margin-right: 10px;
   font-size: 1.2rem;
   color: rgba(255, 255, 255, 0.8);
 }
@@ -366,14 +364,11 @@ footer .creator-credits {
 }
 
 .social-links {
-  margin: 20px;
-}
-.social-link {
-  margin-right: 8px;
+  margin: 10px;
 }
 i {
   font-size: 20px;
-  padding: 10px;
+  padding: 12px;
   color: #484848;
   background-color: white;
   border-radius: 50%;
