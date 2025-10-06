@@ -1,18 +1,3 @@
-@font-face {
-  font-family: "type_keysregular";
-  src: url("/fonts/typekeys-e1kl-webfont.woff2") format("woff2"),
-    url("/fonts/typekeys-e1kl-webfont.woff") format("woff");
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "type_keys_filledregular";
-  src: url("/fonts/typekeysfilled-wjkg-webfont.woff2") format("woff2"),
-    url("/fonts/typekeysfilled-wjkg-webfont.woff") format("woff");
-  font-weight: normal;
-  font-style: normal;
-}
 :root {
   --heading-font: "Prata", serif;
   --title-font: "type_keys_filledregular", serif;
