@@ -1,8 +1,7 @@
 :root {
   --heading-font: "Prata", serif;
-  --title-font: "type_keys_filledregular", serif;
   --primary-font: "Prata", serif;
-  --secondary-font: "Montserrat", serif;
+  --secondary-font: "Poppins", serif;
   --dark-1: #22333b;
   --dark-1-opaque: rgb(34, 51, 59, 0.9);
   --light-1: #e4e8f4;
@@ -59,8 +58,8 @@ main {
   display: inline-block;
   text-decoration: none;
   color: white;
-  background-color: #2c426c;
-  border: 1px solid #2c426c;
+  background-color: var(--dark-1);
+  border: 1px solid var(--dark-1);
   padding: 10px;
   border-radius: 5px;
   margin: 10px 0;
@@ -69,8 +68,9 @@ main {
   font-family: var(--secondary-font);
 }
 .button-branding-1:hover {
-  color: white;
-  background-color: rgb(44, 66, 108, 0.8);
+  color: var(--dark-1);
+  background-color: white;
+  border: 1px solid var(--dark-1);
   transition: 150ms ease-in-out;
 }
 .coming-soon-sticker {
